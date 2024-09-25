@@ -1,13 +1,16 @@
 'use client'
 import { Layout } from 'antd';
 
-const AdminFooterBar = () => {
+const AdminFooter = () => {
     const { Footer } = Layout;
+
     return (
-        <Footer style={{ textAlign: 'center' }}>
-                    Ecommerce ©{new Date().getFullYear()} Created by Ant UED
-                </Footer>
+        <>
+            <Footer style={{ textAlign: 'center' }}>
+                ©{new Date().getFullYear()} Created by Tom
+            </Footer>
+        </>
     )
 }
 
-export default AdminFooterBar
+export default AdminFooter;
